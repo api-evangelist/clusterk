@@ -1,22 +1,71 @@
 aid: clusterk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clusterk.png
 name: Clusterk
-description: Clusterk is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ClusterK was a cloud cost-optimization startup founded in 2013 in Palo Alto,
+  California by Dmitry Pushkarev. Its software let AWS users run production and
+  batch workloads on Amazon EC2 Spot Instances at up to 90% savings versus
+  on-demand pricing, by predicting spot-market prices and continuously
+  rebalancing capacity across instance types. ClusterK shipped two products:
+  ClusterK Balancer, which arbitraged the AWS Spot Market for cost savings, and
+  ClusterK Cirrus, a cloud-native HPC grid scheduler. The company was backed by
+  DCVC (Data Collective), Rally Ventures, and the Mayo Clinic Business
+  Accelerator, raising roughly $1.2M. Amazon acquired ClusterK in April 2015 and
+  absorbed the team and technology into AWS; the company no longer operates
+  independently and publishes no public API, SDK, or developer surface. This
+  profile is retained as a historical portfolio-company record.
 url: https://raw.githubusercontent.com/api-evangelist/clusterk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
+- rally-ventures
+- mayo-clinic-business-accelerator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: amazon
+x-acquired-year: 2015
+x-founded-year: 2013
+x-headquarters: Palo Alto, California, United States
+x-founders:
+- Dmitry Pushkarev
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cloud
+- Cloud Computing
+- Cost Optimization
+- AWS
+- EC2 Spot Instances
+- HPC
+- FinOps
+- Acquired
 apis: []
+common:
+- type: InvestorProfile
+  name: DCVC Portfolio Profile
+  url: https://www.dcvc.com/companies/clusterk/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
