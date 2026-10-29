@@ -64,10 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ClusterK was a cloud cost-optimization startup founded in 2013 in Palo Alto, California by Dmitry Pushkarev. Its software let AWS users run production and batch workloads on Amazon EC2 Spot Instances at up to 90% savings versus on-demand pricing, by predicting spot-market prices and continuously rebalancing capacity. It shipped two products — ClusterK Balancer (AWS Spot Market cost arbitrage) and ClusterK Cirrus (a cloud-native HPC grid scheduler).
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-**Status:** Acquired by Amazon in April 2015; the team and technology were absorbed into AWS. The company no longer operates independently and publishes no public API, SDK, or developer surface (clusterk.com does not resolve).
+ClusterK was a cloud cost-optimization startup founded in 2013 in Palo Alto, California by Dmitry Pushkarev. Its software let AWS users run production and batch workloads on Amazon EC2 Spot Instances at up to 90% savings versus on-demand pricing, by predicting spot-market prices and continuously rebalancing capacity across instance types. ClusterK shipped two products: ClusterK Balancer, which arbitraged the AWS Spot Market for cost savings, and ClusterK Cirrus, a cloud-native HPC grid scheduler. The company was backed by DCVC (Data Collective), Rally Ventures, and the Mayo Clinic Business Accelerator, raising roughly $1.2M. Amazon acquired ClusterK in April 2015 and absorbed the team and technology into AWS; the company no longer operates independently and publishes no public API, SDK, or developer surface. This profile is retained as a historical portfolio-company record.
 
-Backed by: DCVC (Data Collective), Rally Ventures, Mayo Clinic Business Accelerator.
+**Areas:** Company · Cloud · Cloud Computing · Cost Optimization · EC2 Spot Instances · HPC · FinOps · Acquired
 
-Reference: https://www.dcvc.com/companies/clusterk/
+## Clusterk on APIs.io (historical record)
+
+Everything profiled for Clusterk is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clusterk/](https://apis.io/providers/clusterk/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clusterk: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clusterk/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
